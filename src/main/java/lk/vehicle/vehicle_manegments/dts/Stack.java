@@ -26,22 +26,14 @@ public class Stack {
         top  = top.next;
     }
 
-    public  void  printQueue(){
-        Node temp = top;
-
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
-        }
-    }
-
-    public  void  printQueue2(){
+        public  void  printQueue3() {
         Node temp = top;
         while (temp != null) {
             System.out.println(temp.data);
             temp = temp.next;
+
         }
-    }
+        }
 
 
 }
