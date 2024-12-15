@@ -22,18 +22,8 @@ public class Stack {
         }
 
     }
-    public void pop() {
-        top  = top.next;
-    }
 
-        public  void  printQueue3() {
-        Node temp = top;
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
 
-        }
-        }
 
 
 }
