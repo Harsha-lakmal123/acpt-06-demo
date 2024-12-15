@@ -21,4 +21,6 @@ public class Queue {
 
         System.out.println (data);
 
+        System.out.println (data);
+
     }}
