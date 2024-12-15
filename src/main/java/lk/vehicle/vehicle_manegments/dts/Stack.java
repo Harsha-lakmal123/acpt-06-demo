@@ -3,8 +3,8 @@ package lk.vehicle.vehicle_manegments.dts;
 
 public class Stack {
 
-
     Node top;
+
 
     public void push(int  data) {
         Node node = new Node(data);
@@ -25,4 +25,14 @@ public class Stack {
     public void pop() {
         top  = top.next;
     }
+
+    public  void  printQueue(){
+        Node temp = top;
+
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
+    }
+
 }
