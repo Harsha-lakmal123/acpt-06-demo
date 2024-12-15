@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="819.0" prefWidth="1146.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.vehicle.vehicle_manegments.Contoller.SaveFromContoller">
+   <children>
+      <Label layoutX="436.0" layoutY="25.0" prefHeight="66.0" prefWidth="239.0" text="Save from " textFill="#3cb553">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtid" layoutX="260.0" layoutY="151.0" prefHeight="66.0" prefWidth="591.0" promptText="Enter the Your Id">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtBrand" layoutX="260.0" layoutY="247.0" prefHeight="66.0" prefWidth="591.0" promptText="Enter the Your vehicle brand">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtModel" layoutX="260.0" layoutY="344.0" prefHeight="66.0" prefWidth="591.0" promptText="Enter the Your Vehicle Model">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtQty" layoutX="260.0" layoutY="456.0" prefHeight="66.0" prefWidth="591.0" promptText="Enter the Your Vehicle Qty">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPrice" layoutX="260.0" layoutY="574.0" prefHeight="66.0" prefWidth="591.0" promptText="Enter the Your Vehicle Price">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="178.0" layoutY="695.0" mnemonicParsing="false" onAction="#save" prefHeight="77.0" prefWidth="197.0" style="-fx-background-color: blue;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="753.0" layoutY="695.0" mnemonicParsing="false" onAction="#back" prefHeight="77.0" prefWidth="197.0" style="-fx-background-color: red;" text="Back " textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

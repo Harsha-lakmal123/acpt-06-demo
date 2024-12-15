@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="712.0" prefWidth="849.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.vehicle.vehicle_manegments.Contoller.option1Contoller">
+   <children>
+      <Button layoutX="244.0" layoutY="121.0" mnemonicParsing="false" onAction="#vehicle" prefHeight="91.0" prefWidth="310.0" style="-fx-background-color: orange;" text="Vehicle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Button>
+      <Button layoutX="244.0" layoutY="301.0" mnemonicParsing="false" onAction="#service" prefHeight="91.0" prefWidth="310.0" style="-fx-background-color: orange;" text="Service" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Button>
+      <Button layoutX="81.0" layoutY="533.0" mnemonicParsing="false" onAction="#back" prefHeight="71.0" prefWidth="216.0" style="-fx-background-color: red;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="537.0" layoutY="544.0" mnemonicParsing="false" onAction="#next" prefHeight="71.0" prefWidth="216.0" style="-fx-background-color: blue;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="677.0" prefWidth="752.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.vehicle.vehicle_manegments.Contoller.Option2Contoller">
+   <children>
+      <Button layoutX="200.0" layoutY="59.0" mnemonicParsing="false" onAction="#vehicleAdd" prefHeight="79.0" prefWidth="312.0" style="-fx-background-color: orange;" text="Vehicle Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="182.0" mnemonicParsing="false" onAction="#vehicleRemove" prefHeight="79.0" prefWidth="312.0" style="-fx-background-color: orange;" text="Vehicle Remove" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="305.0" mnemonicParsing="false" onAction="#vehicleUpdate" prefHeight="79.0" prefWidth="312.0" style="-fx-background-color: orange;" text="Vehicle Update " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="439.0" mnemonicParsing="false" onAction="#loadAllView" prefHeight="79.0" prefWidth="312.0" style="-fx-background-color: orange;" text="Load All View" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="91.0" layoutY="572.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="162.0" style="-fx-background-color: red;" text="Back" onAction="#back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="458.0" layoutY="572.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="162.0" style="-fx-background-color: blue;" onAction="#next" text="Next"
+              textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
