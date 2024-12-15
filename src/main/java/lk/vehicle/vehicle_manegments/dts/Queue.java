@@ -14,10 +14,11 @@ public class Queue {
             while(temp.next != null){
                 temp = temp.next;
             }
-            
+
             temp.next = node;
 
-
         }
+
+        System.out.println (data);
 
     }}
